@@ -4,20 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Donut Clicker</title>
   </head>
   <body>
+    <nav>
+      <a href="#aboutUs">About Us</a>
+  </nav>
+  <header>
     <div class="container">
-    <h1>Donut Clicker</h1>
-    <p>number of donuts: <span id="donutsCount">0</span></p> 
+    <h1>Fred the Baker Baking Company</h1>
+    <p>There's no need to run to the bakery for delicious jelly doughnuts! These sweet treats are lighter than air. I've been fixing them for 5 years for my husband, our friends and their families. They disappear almost as fast as I make them. —Amina's Kitchen, Whitehall, OH</p>
+  </header>
+  <main>
+  <section>
+    <p>number of donuts: <span id="donutsCount">0</span></p>
+    <img src="./image/Donuts.jpg"> 
         <button id="createDonutBtn">Create  a Donut</button>
-
       </div>
+    </section>
+    <section>
       <div>
         <p>autoClicker Cost: <span id="autoClickersCost">100</span></p> 
         <p> number of autoClickers: <span id="autoClickers">0</span></p> 
         <button id="createAutoClickerBtn" >autoClicker </button>
       </div>
+    </section>
+    <section>
+      <div>
+        <p>multiplierCost: <span id="multiplierCost">10</span></p> 
+        <p> number of multiplier: <span id="multiplier">0</span></p> 
+        <button id="createMultiplierBtn" >donutMultiplier </button>
+      </div>
+    </section>
     <script src="./index.js"></script>
+  </main>
+<footer>
+    &copy; 2021 Business
+</footer>
   </body>
 </html>
